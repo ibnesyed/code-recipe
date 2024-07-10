@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290673108343",
+    "project_id": "telematics-23",
+    "storage_bucket": "telematics-23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290673108343:android:e2b7015c74ab7cbaf66d72",
+        "android_client_info": {
+          "package_name": "com.tlteletix.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290673108343-631dpate73e3ocu320de5qfs8usr1cc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaydRScodLPSWZ6_QbMjlPVCQ7LU3MsDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290673108343-631dpate73e3ocu320de5qfs8usr1cc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

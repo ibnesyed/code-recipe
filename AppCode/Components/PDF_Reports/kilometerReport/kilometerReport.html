@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Kilometer Report</title>
+       <style>
+           .header, .row, .headerTables{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+           }
+           .tableBorder{
+               border: 1px solid;
+           }
+           table {
+           border-collapse: collapse;
+           width: 100%;
+           text-align: left;
+       }
+       .rightNone{
+           border-right: none;
+       }
+       .leftNone{
+           border-left: none;
+       }
+       th, td {
+           padding: 0.5em; /* Adjust this value as per your preference */
+       }
+       </style>
+   </head>
+   <body>
+       <div class="header">
+           <h1>Nostrum Track Pvt. Ltd.</h1>
+           <h2 style="background-color: lightgray; margin-top: 0; height: 30px;">Asset Kilometer Report</h2>
+       </div>
+       <div class="headerTables">
+           <div>
+               <table border="1">
+                   <tr>
+                       <th>Asset Name</th>
+                       <td class="rightNone">BR-14-329</td>
+                       <td class="leftNone">Group : AGGRIO PAKISTAN</td>
+                   </tr>
+                   <tr>
+                       <th>Report Period</th>
+                       <td colspan="2">05/07/2023 12:00:00 AM to 05/07/2023 02:49:58 PM</td>
+                   </tr>
+                   <tr>
+                       <th>Report Run Time</th>
+                       <td colspan="2">(Wednesday)05/07/2023 2:50:02PM</td>
+                   </tr>
+               </table>
+               <div><span style="color: red;">*Note : </span>Mileage calculation based on Device mileage.</div>
+               <br />
+           </div>
+           <div>
+               <table border="1">
+                   <tr>
+                       <td>Total Mileage : 110.84</th>
+                       <td>Trip Mileage : 110.84</td>
+                       <td>Off Set Mileage : 0</td>
+                       <td>Trip : 15</td>
+                   </tr>
+                   <tr>
+                       <th>Start Location</th>
+                       <td colspan="3">3.187km away from BAHMANI WALA LODHRAN Bahmani Wala Lodhran</td>
+                   </tr>
+                   <tr>
+                       <th>End Location</th>
+                       <td colspan="3">3.202km away from BAHMANI WALA LODHRAN Bahmani Wala Lodhran</td>
+                   </tr>
+               </table>
+           </div>
+       </div>
+       <table border="1" style="text-align: center !important;">
+           <tr style="background-color: lightgray;">
+               <th>Sr.#</th>
+               <th>GPS Date<br />(dd/mm/yyyy)</th>
+               <th>Start Km</th>
+               <th>End Km</th>
+               <th>Total Mileage<br />Km/Hr</th>
+               <th>Trip Mileage<br />Km</th>
+               <th>Offset Mileage<br />Km</th>
+               <th>Starting Location</th>
+               <th>Ending Location</th>
+           </tr>
+           <tr key={0}>
+                <td>1</td>
+                <td>2023-06-12T07:36:31.74</td>
+                <td>On</td>
+                <td>Idle</td>
+                <td>--</td>
+                <td>88299.696</td>
+                <td>29.61294,71.518272</td>
+                <td>3.187km away from BAHMANI WALA LODHRAN Bahmani Wala Lodhran</td>
+                <td>2023-06-12T07:36:33.74</td>
+            </tr>
+       </table>
+   </body>
+   </html>

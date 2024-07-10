@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summery Report</title>
+    <style>
+        .header,
+        .row,
+        .headerTables {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .tableBorder {
+            border: 1px solid;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: left;
+        }
+
+        .rightNone {
+            border-right: none;
+        }
+
+        .leftNone {
+            border-left: none;
+        }
+
+        .bordernone {
+            border: none;
+        }
+
+        th,
+        td {
+            padding: 0.5em;
+            /* Adjust this value as per your preference */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headerTables">
+        <div>
+            <table border="1">
+                <tr>
+                    <th>Asset Name</th>
+                    <td class="rightNone">BR-14-329</td>
+                    <td class="leftNone">Group : AGGRIO PAKISTAN</td>
+                </tr>
+                <tr>
+                    <th>Report Period</th>
+                    <td colspan="2">05/07/2023 12:00:00 AM to 05/07/2023 02:49:58 PM</td>
+                </tr>
+                <tr>
+                    <th>Report Run Time</th>
+                    <td colspan="2">(Wednesday)05/07/2023 2:50:02PM</td>
+                </tr>
+            </table>
+            <div><span style="color: red;">*Note : </span>Mileage calculation based on Device.</div>
+            <br />
+            <div class="headerTables">
+                <div>
+
+                    <table border="1">
+                        <tr>
+                            <th>Total Trip Time</th>
+                            <td>3131231</td>
+                        </tr>
+                        <tr>
+                            <th>Total Drive Time</th>
+                            <td>123123123</td>
+                        </tr>
+                        <tr>
+                            <th>Total Idle Time</th>
+                            <td>123123123</td>
+                        </tr>
+                        <tr>
+                            <th>Total Stop Time</th>
+                            <td>123123123</td>
+                        </tr>
+                        <tr>
+                            <th>Speed Limit</th>
+                            <td>123123123</td>
+                        </tr>
+                        <tr>
+                            <th>Over Speed</th>
+                            <td>123123123</td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <table border="1">
+                        <tr>
+                            <th>Total Mileage</th>
+                            <td>3131231</td>
+                        </tr>
+                        <tr>
+                            <th>Trip Mileage</th>
+                            <td>123123123</td>
+                        </tr>
+                        <tr>
+                            <th>OffSet Mileage</th>
+                            <td>123123123</td>
+                        </tr>
+                        <tr>
+                            <th>Trips Count</th>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <th>Stops Count</th>
+                            <td>13</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <br />
+            <div style="margin-bottom: 20px;">
+                <table border="1">
+                    <tr>
+                        <th>First Trip Start At</th>
+                        <td>932847u182ehdajs dkjs dajk hsakjd askjd sakjd sjkad KS DBKASJ DKA DNak sd A Sd</td>
+                    </tr>
+                    <tr>
+                        <th>Last Trip End At</th>
+                        <td>932847u182ehdajs dkjs dajk hsakjd askjd sakjd sjkad KS DBKASJ DKA DNak sd A Sd</td>
+                    </tr>
+                </table>
+            </div>
+            <h2 style="background-color: lightgray; padding-left: 25px;padding-right: 25px; display: inline;">Trips
+                Detail</h2>
+
+        </div>
+        <div>
+            <h2 style="background-color: lightgray; padding-left: 25px;padding-right: 25px; display: inline;">Asset
+                Summery Report</h2>
+            <div style="margin: 75px;">
+                <table border="1">
+                    <tr class="bordernone">
+                        <td class="bordernone">
+                            <div style="height: 10px; width: 10px; background-color: blue;"></div>
+                        </td>
+                        <td class="bordernone">Idle</td>
+                        <td class="bordernone">4.0%</td>
+                    </tr>
+                    <tr>
+                        <td class="bordernone">
+                            <div style="height: 10px; width: 10px; background-color: green;"></div>
+                        </td>
+                        <td class="bordernone">Moving</td>
+                        <td class="bordernone">4.0%</td>
+                    </tr>
+                    <tr>
+                        <td class="bordernone">
+                            <div style="height: 10px; width: 10px; background-color: orange;"></div>
+                        </td>
+                        <td class="bordernone">Parked</td>
+                        <td class="bordernone">4.0%</td>
+                    </tr>
+                    <tr>
+                        <td class="bordernone"></td>
+                        <td class="bordernone">Total</td>
+                        <td class="bordernone">4.0%</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <table border="1" style="text-align: center !important;">
+        <tr style="background-color: lightgray;">
+            <th>Sr.#</th>
+            <th>Start At<br />(dd/mm/yyyy)</th>
+            <th>End At<br />(dd/mm/yyyy)</th>
+            <th>Trip Time</th>
+            <th>Drive Time</th>
+            <th>Idle Time</th>
+            <th>Start<br />Km</th>
+            <th>End<br />Km</th>
+            <th>Dist.<br />Km</th>
+            <th>Start Location</th>
+            <th>End Location</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </table>
+</body>
+
+</html>

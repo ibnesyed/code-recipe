@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDLE PARKED Report</title>
+    <style>
+        .header,
+        .row,
+        .headerTables {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .tableBorder {
+            border: 1px solid;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: left;
+        }
+
+        .rightNone {
+            border-right: none;
+        }
+
+        .leftNone {
+            border-left: none;
+        }
+
+        .borderNone {
+            border: none;
+        }
+
+        th,
+        td {
+            padding: 0.5em;
+            /* Adjust this value as per your preference */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Nostrum Track Pvt. Ltd.</h1>
+        <h2 style="background-color: lightgray; margin-top: 0; height: 30px;">Asset Idle Parked Report</h2>
+    </div>
+    <div class="headerTables">
+        <div>
+            <table border="1">
+                <tr>
+                    <th>Asset Name</th>
+                    <td class="rightNone">BR-14-329</td>
+                    <td class="leftNone">Group : AGGRIO PAKISTAN</td>
+                </tr>
+                <tr>
+                    <th>Report Period</th>
+                    <td colspan="2">05/07/2023 12:00:00 AM to 05/07/2023 02:49:58 PM</td>
+                </tr>
+                <tr>
+                    <th>Report Run Time</th>
+                    <td colspan="2">(Wednesday)05/07/2023 2:50:02PM</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="margin-top: -50px; margin-bottom: 10px;">
+        <table>
+            <tr class="borderNone">
+                <td class="borderNone" colspan="8"></td>
+                <th class="borderNone" style="color: red;">Time Filter</th>
+                <td class="borderNone" style="color: red;">1 Min</td>
+            </tr>
+            <tr class="borderNone">
+                <td class="borderNone" colspan="8"></td>
+                <th class="tableBorder">Report Time</th>
+                <td class="tableBorder">02 daysdasdasd</td>
+            </tr>
+            <tr class="tableBorder">
+                <th class="tableBorder">Total Mileage :</th>
+                <td class="tableBorder">213</td>
+                <th class="tableBorder">Trip Mileage :</th>
+                <td class="tableBorder">213</td>
+                <th class="tableBorder">OffSet Mileage :</th>
+                <td class="tableBorder">213</td>
+                <th class="tableBorder">Trips :</th>
+                <td class="tableBorder">213</td>
+                <th class="tableBorder">Park Time</th>
+                <td class="tableBorder">213</td>
+            </tr>
+            <tr class="tableBorder">
+                <th class="tableBorder">First Stop At :</th>
+                <td class="tableBorder" colspan="7">0.123 askjdnasod asjidnasjnd iajsnda sindakjsd nasijd asjd naisj
+                    dasd </td>
+                <th class="tableBorder">Idle Time</th>
+                <td class="tableBorder">00:30:31</td>
+            </tr>
+            <tr class="tableBorder">
+                <th class="tableBorder">Last Stop At :</th>
+                <td class="tableBorder" colspan="7">0.123 askjdnasod asjidnasjnd iajsnda sindakjsd nasijd asjd naisj
+                    dasd </td>
+                <th class="tableBorder">Drive Time</th>
+                <td class="tableBorder">00:30:31</td>
+            </tr>
+        </table>
+    </div>
+    <table border="1" style="text-align: center !important;">
+        <tr style="background-color: lightgray;">
+            <th>Sr.#</th>
+            <th>Stop At</th>
+            <th>Move At</th>
+            <th>Idle Duration</th>
+            <th>Parked Duration</th>
+            <th>Site</th>
+        </tr>
+        <tr key={0}>
+            <td>1</td>
+            <td>2023-06-12T07:36:31.74</td>
+            <td>On</td>
+            <td>Idle</td>
+            <td>--</td>
+            <td>88299.696</td>
+        </tr>
+    </table>
+</body>
+
+</html>

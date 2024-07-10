@@ -1,0 +1,74 @@
+<SafeAreaView style={{flex:1,backgroundColor:'white'}}>
+            <View style={style.header}>
+                <View style={style.headertitle}>
+                <Image  style={style.backimage} source={require('../../assets/leftarrow.png')}/>
+                <Text style={{fontSize:20}}></Text>
+                </View>
+                <View style={style.imgcontainer}>
+
+                <Image  style={style.image} source={require('../../assets/fuelconsume.png')}/>
+                </View>
+                <View >
+                    <Text style={style.literfule}>Fuel Consumed <Text style={style.liters}>5.08</Text>Liter</Text>
+
+                </View>
+            </View>
+            <View>
+                <Image style={style.fuelmeter} source={require('../../assets/meter1.png')}/>
+            <View style={style.fuelcostcontainer}>
+                <Text style={{fontSize:18,color:'#BCBCBC'}}>Thats’s the Total Cost</Text>
+                <Text style={{fontWeight:'700', fontSize:36,marginTop:-10}}>108.73 <Text style={{fontSize:18}}>Rs.</Text></Text>
+
+            </View>
+
+            <View style={style.uppercontainer}>
+
+           
+            <View style={style.generalcontainer} >
+                <View style={style.tripdot}></View><Text style={{marginLeft:5, fontSize:18, color:'#ABABAB'}} >Total Trips</Text>
+            </View>
+                 <Text style={{fontSize:18,marginTop:5, marginLeft:15, color:'#3C3C3C'}}>0</Text>
+         
+                <View style={style.generalcontainer}>
+                <View style={style.distancedot}></View><Text style={{marginLeft:5, fontSize:18, color:'#ABABAB'}}>Distance <Text style={{marginLeft:5,fontSize:12,color:'#ABABAB'}}>km</Text></Text>
+                </View>
+                 <Text style={{fontSize:18,marginTop:5, marginLeft:15,color:'#3C3C3C'}}>0</Text>
+                 </View>
+            <View style={style.lowercontainer}>
+
+            
+                <View style={style.generalcontainer}>
+                <View style={style.avgdot}></View><Text style={{marginLeft:5}}>Fuel Avg. <Text style={{marginLeft:5,fontSize:12}}>kmpl</Text></Text>
+                </View>
+                 <Text style={{fontSize:18,marginTop:5, marginLeft:10}}>15</Text>
+            
+          
+                <View style={style.generalcontainer}>
+                <View style={style.fuelpricedot}></View><Text style={{marginLeft:5}}>Fuel Price </Text>
+                </View>
+                 <Text style={{fontSize:18,marginTop:5, marginLeft:10}}>283</Text>
+            </View>
+           
+            </View>
+
+            <View style={style.bottomcontainer}>
+               
+                <View style={style.drivetimecontainer}>
+                    <Text>Total Drive Time </Text>
+                    <Text>00:00:00</Text>
+                </View>
+                <View style={style.idletimecontainer}>
+                    <Text>Total Idle Time </Text><Text>00:00:00</Text>
+                    </View>
+                <View style={style.parkedtimecontainer}>
+                    <Text>Total Parked Time </Text><Text>00:00:00</Text>
+                    </View>
+
+              
+               
+            </View>
+            
+           
+         
+            
+        </SafeAreaView>

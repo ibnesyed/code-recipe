@@ -1,0 +1,17 @@
+export { default as bikeMapIdle } from "./IdleBike.svg";
+export { default as busIconMapIdle } from "./IdleBus.svg";
+export { default as carMapIdle } from "./IdleCar.svg";
+export { default as truckIconMapIdle } from "./IdleTruck.svg";
+export { default as bikeIconMapOffline } from "./OfflineBike.svg";
+export { default as busMapIconMoving } from "./MovingBus.svg";
+export { default as truckIconMapMoving } from "./MovingTruck.svg";
+export { default as truckIconMapOffline } from "./OfflineTruck.svg";
+export { default as bikeIconMapParked } from "./ParkedBike.svg";
+export { default as bikeMapMoving } from "./MovingBike.svg";
+export { default as busMapIconParked } from "./parkedBus.svg";
+export { default as busMapIconOffline } from "./OfflineBus.svg";
+export { default as truckIconMapParked } from "./ParkedTruck.svg";
+export { default as carMapOffline } from "./OfflineCar.svg";
+export { default as carTopView } from "./car_topview.svg";
+export { default as carMapMoving } from "./MovingCar.svg";
+export { default as carMapParked } from "./ParkedCar.svg";

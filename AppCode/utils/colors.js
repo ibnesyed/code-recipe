@@ -1,0 +1,17 @@
+export const COLORS = {
+    light: "#D2D2D2",
+    dark: "#434343",
+    themeBlue: "#1A2961",
+    black: 'black',
+    white: 'white',
+    Pacific_Blue: '#1693dc',
+    Deep_Sky_Blue: '#00b0ef',
+    Chetwode_Blue: '#7676ad',
+    Mariner: '#436aa3',
+    Roof_Terracotta: '#a04444',
+    Ce_Soir: '#9b75aa',
+    Grey: '#757575',
+    Very_Light_Grey_Text: '#c9c9c9',
+    Very_Light_Grey: '#f1f6f7',
+    Night_Rider: '#353535',
+}

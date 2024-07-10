@@ -1,0 +1,16 @@
+I dont know exactly what I did, but I resolved my problem.
+
+I updated MacOS and Xcode
+I uninstalled cocoapods from gem gem uninstall cocoapods
+I had some error while I was running bundle exec pod install. So I used sudo xcode-select --switch /Applications/Xcode.app link
+Then sudo xcodebuild -license accept
+Then I ran installer npx react-native init template --template react-native-template-typescript and everything was good!
+Also I can recommend you to use these commands to know where is your error
+
+npx react-native init testproject --skip-install
+cd testproject
+yarn install
+cd ios
+bundle install
+bundle exec pod install
+bundle exec pod install pod repo update // <= for Firebase
